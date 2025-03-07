@@ -78,3 +78,13 @@ body {
 
 
 /*! header end  */
+
+/*! Home start  */
+
+.home{
+    min-height: 100vh;
+    display: flex;
+
+}
+
+/*! Home end  */
