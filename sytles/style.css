@@ -84,6 +84,19 @@ body {
 .home{
     min-height: 100vh;
     display: flex;
+    background: url(../img/Bc-img.jpg) no-repeat;  
+    
+
+}
+
+.content .home {
+    
+    max-width: 60rem;
+}
+
+ h3 {
+
+    font-size: large;
 
 }
 
