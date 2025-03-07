@@ -84,7 +84,12 @@ body {
 .home{
     min-height: 100vh;
     display: flex;
-    background: url(../img/Bc-img.jpg) no-repeat;  
+    background: url(../img/Bc-img.jpg) no-repeat;
+    background-size: cover;  
+    background-position: center;
+    margin-top: -14.5rem;
+    align-items: center;
+    
     
 
 }
@@ -94,10 +99,22 @@ body {
     max-width: 60rem;
 }
 
- h3 {
+  .home .content h3 {
 
-    font-size: large;
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: white;
 
 }
+
+ .home .content p {
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.8;
+    padding: 1rem 0;
+    color: #ccc;
+}
+
+
 
 /*! Home end  */
